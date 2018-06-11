@@ -1,0 +1,11 @@
+---
+  name: "gpio_rfc_reader"
+  type: "rfc"
+  author: "SAP Labs Caen"
+
+  kalliope_supported_version:
+    - 0.5.1
+
+  tags:
+    - "GPIO"
+    - "RFC"

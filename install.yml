@@ -1,0 +1,10 @@
+---
+- name: RFC_GPIO
+  hosts: localhost
+  gather_facts: no
+  connection: local
+
+  tasks:
+    - name: "Install python dependencies"
+      pip:
+        name: RPi.GPIO
